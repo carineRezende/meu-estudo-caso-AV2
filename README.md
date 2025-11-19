@@ -2,18 +2,18 @@
 
 ## 📝 Descrição do Projeto
 
-Este projeto é um **Estudo de Caso Avançado** que visa demonstrar a implementação completa de um **CRUD (Create, Read, Update, Delete)** em dois ambientes de desenvolvimento distintos, consumindo a mesma **API REST** de alunos[cite: 26, 51].
+Este projeto é um **Estudo de Caso Avançado** que visa demonstrar a implementação completa de um **CRUD (Create, Read, Update, Delete)** em dois ambientes de desenvolvimento distintos, consumindo a mesma **API REST** de alunos.
 
 O objetivo funcional é simular um sistema de gerenciamento de alunos, permitindo:
 1.  **Visualização** da lista de alunos.
 2.  **Consulta** e **Edição** dos detalhes de um aluno específico.
 3.  **Criação** de novos registros.
 4.  **Exclusão** de alunos existentes.
-5.  Inclusão de **Testes Automatizados** na versão web[cite: 27].
+5.  Inclusão de **Testes Automatizados** na versão web.
 
 O projeto é dividido em:
-* **Aplicação Web** (`web/`): Implementada com React, Vite e testes com Vitest[cite: 4].
-* **Aplicação Mobile** (`mobile/`): Implementada com React Native, Expo e navegação[cite: 5, 40, 44].
+* **Aplicação Web** (`web/`): Implementada com React, Vite e testes com Vitest.
+* **Aplicação Mobile** (`mobile/`): Implementada com React Native, Expo e navegação.
 
 ---
 
@@ -23,9 +23,9 @@ Abaixo estão as ferramentas e bibliotecas utilizadas para cada plataforma:
 
 | Plataforma | Framework Base | Roteamento | Requisições | Testes & Componentes |
 | :--- | :--- | :--- | :--- | :--- |
-| **Web** (`web/`) | React (Vite) | [cite_start]React Router DOM [cite: 17] | [cite_start]Axios [cite: 18] | [cite_start]React Bootstrap, Vitest [cite: 20][cite_start], Testing Library [cite: 21] |
-| **Mobile** (`mobile/`) | [cite_start]React Native (Expo) [cite: 43] | [cite_start]Expo Router (React Navigation) [cite: 44] | [cite_start]Axios [cite: 45] | React Native Paper (Estilização) |
-| **API** | REST de Alunos | [cite_start]Endpoint: `https://proweb.leoproti.com.br/alunos` [cite: 26] |
+| **Web** (`web/`) | React (Vite) | React Router DOM  | Axios  | React Bootstrap, Vitest , Testing Library  |
+| **Mobile** (`mobile/`) | React Native (Expo)  | Expo Router (React Navigation)  | Axios  | React Native Paper (Estilização) |
+| **API** | REST de Alunos | Endpoint: `https://proweb.leoproti.com.br/alunos` |
 
 ---
 
@@ -49,18 +49,10 @@ As rotas seguem o padrão de roteamento baseado em arquivos do Expo Router:
 
 | Rota | Arquivo | Funcionalidades |
 | :--- | :--- | :--- |
-| `/` | `app/index.tsx` | [cite_start]Tela de Boas-Vindas e link principal para a listagem[cite: 48]. |
+| `/` | `app/index.tsx` | Tela de Boas-Vindas e link principal para a listagem. |
 | `/alunos/index.tsx` | `app/alunos/index.tsx` | **Listagem de Alunos (Read)**, acesso rápido para Criação e botões para Edição e **Exclusão (Delete)**. |
 | `/alunos/novo.tsx` | `app/alunos/novo.tsx` | Formulário para **Criação (Create)** de um novo aluno. |
-| `/alunos/[id].tsx` | `app/alunos/[id].tsx` | [cite_start]**Edição (Update)** do aluno selecionado, carregando os dados via ID da rota[cite: 49]. |
-
----
-
-## 🗂️ Estrutura de Pastas
-
-A estrutura segue o padrão monorepo com os projetos web e mobile separados, além de pastas para serviços de API e componentes reutilizáveis na versão mobile:
-
-meu-estudo-caso/ ├── web/ │ ├── src/ │ │ ├── components/ │ │ ├── pages/ (Home, Alunos, NovoAluno, DetalheAluno) │ │ └── services/ (Lógica da API) │ ├── package.json │ └── vite.config.js └── mobile/ ├── app/ │ ├── alunos/ │ │ ├── index.tsx │ │ ├── novo.tsx │ │ └── [id].tsx │ └── _layout.tsx ├── components/ (FormAluno.tsx) ├── script/ (alunoService.ts) └── package.json
+| `/alunos/[id].tsx` | `app/alunos/[id].tsx` | **Edição (Update)** do aluno selecionado, carregando os dados via ID da rota. |
 
 ---
 
