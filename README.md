@@ -2,18 +2,18 @@
 
 ## 📝 Descrição do Projeto
 
-[cite_start]Este projeto é um **Estudo de Caso Avançado** que visa demonstrar a implementação completa de um **CRUD (Create, Read, Update, Delete)** em dois ambientes de desenvolvimento distintos, consumindo a mesma **API REST** de alunos[cite: 26, 51].
+Este projeto é um **Estudo de Caso Avançado** que visa demonstrar a implementação completa de um **CRUD (Create, Read, Update, Delete)** em dois ambientes de desenvolvimento distintos, consumindo a mesma **API REST** de alunos[cite: 26, 51].
 
 O objetivo funcional é simular um sistema de gerenciamento de alunos, permitindo:
 1.  **Visualização** da lista de alunos.
 2.  **Consulta** e **Edição** dos detalhes de um aluno específico.
 3.  **Criação** de novos registros.
 4.  **Exclusão** de alunos existentes.
-5.  [cite_start]Inclusão de **Testes Automatizados** na versão web[cite: 27].
+5.  Inclusão de **Testes Automatizados** na versão web[cite: 27].
 
 O projeto é dividido em:
-* [cite_start]**Aplicação Web** (`web/`): Implementada com React, Vite e testes com Vitest[cite: 4].
-* [cite_start]**Aplicação Mobile** (`mobile/`): Implementada com React Native, Expo e navegação[cite: 5, 40, 44].
+* **Aplicação Web** (`web/`): Implementada com React, Vite e testes com Vitest[cite: 4].
+* **Aplicação Mobile** (`mobile/`): Implementada com React Native, Expo e navegação[cite: 5, 40, 44].
 
 ---
 
