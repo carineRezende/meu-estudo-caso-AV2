@@ -130,7 +130,7 @@ Isso executará os testes e exibirá o relatório de cobertura e resultados no t
 ---
 ### 5. ☁️ Deploy e Publicação da Versão Web (Vercel)
 
-Link: https://vercel.com/carine-rezendes-projects/meu-estudo-caso-av-2
+Link: (https://meu-estudo-caso-av-2-nu.vercel.app/)
 
 ---
 
